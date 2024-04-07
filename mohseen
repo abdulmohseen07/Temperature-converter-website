@@ -1,0 +1,7 @@
+import tkinter as tk
+parent = tk.Tk()
+parent.title('Title - do you want to exit')
+my_button = tk.Button(parent, text='mohseen', height=18, width=28,
+command=parent.destroy)
+my_button.pack()
+parent.mainloop()  
